@@ -1,0 +1,47 @@
+# Sensitive configuration files
+includes/db.php
+
+# User uploaded files
+uploads/*
+!uploads/.gitkeep
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+error_log
+
+# Temporary files
+*.tmp
+*.temp
+
+# PHP cache
+*.php~
+
+# Backup files
+*.bak
+*.backup
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# Vendor directories (if using Composer)
+vendor/
+
+# Node modules (if using Node.js tools)
+node_modules/
+
+# Build directories
+build/
+dist/

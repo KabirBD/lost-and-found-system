@@ -1,0 +1,220 @@
+/* Form Styling for Lost & Found System */
+
+/* Filter Card Styling */
+.filter-card {
+    border: none;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    border-radius: 12px;
+    margin-bottom: 2rem;
+    background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+    overflow: hidden;
+}
+
+.filter-card .card-body {
+    padding: 1.5rem;
+}
+
+/* Form Container */
+.filter-form {
+    width: 100%;
+    max-width: 100%;
+}
+
+.filter-form .row {
+    margin: 0;
+}
+
+.filter-form .row > * {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+}
+
+/* Search Input Styling */
+.input-group-search {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.input-group-search .input-group-text {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border: none;
+    color: white;
+    padding: 0.75rem 1rem;
+}
+
+.input-group-search .form-control {
+    border: none;
+    padding: 0.75rem 1rem;
+    font-size: 0.95rem;
+}
+
+.input-group-search .form-control:focus {
+    box-shadow: 0 0 0 0.2rem rgba(102, 126, 234, 0.25);
+}
+
+.search-input::placeholder {
+    color: #6c757d;
+    font-style: italic;
+}
+
+/* Custom Select Styling */
+.form-select {
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    padding: 0.75rem 1rem;
+    font-size: 0.95rem;
+    background-color: #ffffff;
+}
+
+.form-select:focus {
+    border-color: #667eea;
+    box-shadow: 0 0 0 0.2rem rgba(102, 126, 234, 0.25);
+    background-color: #ffffff;
+}
+
+.form-select:hover {
+    border-color: #667eea;
+}
+
+/* Form Labels */
+.form-label {
+    font-weight: 600;
+    color: #495057;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+}
+
+/* Button Styling */
+.btn-filter {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border: none;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.btn-filter:hover {
+    background: linear-gradient(135deg, #5a6fd8 0%, #6b4190 100%);
+    color: white;
+}
+
+.btn-reset {
+    background: #f8f9fa;
+    border: 1px solid #dee2e6;
+    color: #6c757d;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.btn-reset:hover {
+    background: #e9ecef;
+    border-color: #adb5bd;
+    color: #495057;
+}
+
+/* Responsive Filter Layout */
+@media (max-width: 768px) {
+    .filter-card .card-body {
+        padding: 1rem;
+    }
+    
+    .filter-form .row > * {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .btn-filter,
+    .btn-reset {
+        font-size: 0.9rem;
+        padding: 0.6rem 1rem;
+    }
+    
+    .d-flex.gap-2 {
+        gap: 0.5rem !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .filter-card .card-body {
+        padding: 0.75rem;
+    }
+    
+    .filter-form .row > * {
+        padding-left: 0.25rem;
+        padding-right: 0.25rem;
+    }
+    
+    .d-flex.gap-2 {
+        flex-direction: column;
+    }
+    
+    .btn-filter,
+    .btn-reset {
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+}
+
+/* Enhanced Focus States */
+.form-control:focus,
+.form-select:focus {
+    border-color: #667eea;
+    box-shadow: 0 0 0 0.2rem rgba(102, 126, 234, 0.25);
+}
+
+/* Form Group Spacing */
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+/* Custom Checkbox and Radio Styling */
+.form-check-input:checked {
+    background-color: #667eea;
+    border-color: #667eea;
+}
+
+.form-check-input:focus {
+    border-color: #667eea;
+    box-shadow: 0 0 0 0.25rem rgba(102, 126, 234, 0.25);
+}
+
+/* Filter Form Container */
+.filter-form {
+    background: white;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Status Filter Enhancement */
+.form-select option {
+    padding: 0.5rem;
+}
+
+/* Accessibility Improvements */
+.form-control:focus,
+.form-select:focus,
+.btn:focus {
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
+
+/* Search Input Enhancements */
+.search-input.has-content {
+    border-color: #667eea;
+    background-color: #f8f9ff;
+}
+
+.search-input.has-content + .input-group-text {
+    background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+}

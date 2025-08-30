@@ -1,0 +1,10 @@
+# Uploads Directory
+
+This directory stores user-uploaded photos for lost and found items.
+
+**Note**: This directory needs write permissions for the web server to function properly.
+
+## Setup Instructions
+1. Ensure this directory has proper write permissions
+2. The application will automatically create subdirectories as needed
+3. Photos are automatically cleaned up periodically by the system

@@ -1,0 +1,179 @@
+/* Global spacing and icon improvements for Lost & Found System */
+
+/* Icon spacing classes */
+.icon-spacing {
+    margin-right: 0.5rem !important;
+}
+
+.icon-spacing-sm {
+    margin-right: 0.3rem !important;
+}
+
+.icon-spacing-lg {
+    margin-right: 0.75rem !important;
+}
+
+/* Button spacing */
+.btn-spacing {
+    margin-right: 0.75rem !important;
+    margin-bottom: 0.75rem !important;
+}
+
+.btn-spacing-sm {
+    margin-right: 0.5rem !important;
+    margin-bottom: 0.5rem !important;
+}
+
+/* Card spacing */
+.card-spacing {
+    margin-bottom: 1.5rem !important;
+}
+
+.card-spacing-sm {
+    margin-bottom: 1rem !important;
+}
+
+/* Grid spacing */
+.stats-grid {
+    gap: 1.25rem !important;
+}
+
+/* Global icon-text spacing - applies to all Bootstrap icons */
+.bi:not(.badge .bi):not(.navbar-brand .bi):not(.search-icon) {
+    margin-right: 0.4rem;
+}
+
+/* Navigation specific spacing */
+.navbar .bi {
+    margin-right: 0.5rem;
+}
+
+/* Form group spacing improvements */
+.form-group {
+    margin-bottom: 1.25rem !important;
+}
+
+.form-row .col,
+.form-row [class*="col-"] {
+    padding-left: 0.75rem !important;
+    padding-right: 0.75rem !important;
+}
+
+/* Enhanced responsive button spacing */
+@media (max-width: 768px) {
+    .btn-spacing {
+        margin-right: 0.5rem !important;
+        margin-bottom: 0.5rem !important;
+        width: auto !important;
+    }
+    
+    .d-flex .btn-spacing:last-child {
+        margin-right: 0 !important;
+    }
+}
+
+.nav-link .bi {
+    margin-right: 0.5rem;
+}
+
+/* Button group improvements */
+.btn-group .btn {
+    margin-right: 0.25rem;
+}
+
+.btn-group .btn:last-child {
+    margin-right: 0;
+}
+
+/* Table spacing improvements */
+.table td, .table th {
+    padding: 0.75rem;
+}
+
+.table .btn-group .btn {
+    margin-right: 0.25rem;
+    margin-bottom: 0;
+}
+
+/* Badge spacing */
+.badge .bi {
+    margin-right: 0.3rem;
+}
+
+/* Form spacing */
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-row .col {
+    margin-bottom: 0.75rem;
+}
+
+/* Alert spacing */
+.alert .bi {
+    margin-right: 0.5rem;
+}
+
+/* Card header improvements */
+.card-header .bi {
+    margin-right: 0.5rem;
+}
+
+/* Dropdown improvements */
+.dropdown-item .bi {
+    margin-right: 0.5rem;
+}
+
+/* List group improvements */
+.list-group-item .bi {
+    margin-right: 0.5rem;
+}
+
+/* Responsive spacing adjustments */
+@media (max-width: 768px) {
+    .btn-spacing {
+        margin-right: 0.5rem !important;
+        margin-bottom: 0.5rem !important;
+    }
+    
+    .card-spacing {
+        margin-bottom: 1rem !important;
+    }
+    
+    .stats-grid {
+        gap: 1rem !important;
+    }
+}
+
+/* Special spacing for specific components */
+.notification-icon {
+    margin-right: 0.75rem;
+}
+
+.status-badge .bi {
+    margin-right: 0.3rem;
+}
+
+.quick-action .bi {
+    margin-right: 0.5rem;
+}
+
+/* Admin panel specific spacing */
+.admin-sidebar .bi {
+    margin-right: 0.75rem;
+}
+
+/* Profile specific spacing */
+.profile-info .bi {
+    margin-right: 0.5rem;
+}
+
+/* Statistics card improvements */
+.stats-card .bi {
+    margin-bottom: 0.75rem;
+}
+
+/* Search form improvements */
+.search-form .btn .bi {
+    margin-right: 0.3rem;
+}
