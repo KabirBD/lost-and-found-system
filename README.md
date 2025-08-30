@@ -44,6 +44,80 @@ A comprehensive web-based Lost & Found application designed to help campus commu
 - **Security** - Protected against SQL injection and XSS attacks
 - **Session Management** - Secure user session handling
 
+## 📸 Screenshots
+
+### Public Pages
+
+#### Homepage
+![Homepage](assets/screenshots/localhost_lost-and-found_index.php.png)
+*Clean, modern homepage with statistics and recent items display*
+
+#### Items Browser
+![Items Browser](assets/screenshots/localhost_lost-and-found_items.php.png)
+*Browse and search through all lost and found items*
+
+#### Item Details
+![Item Details](assets/screenshots/localhost_lost-and-found_item_detail.php_id=1.png)
+*Detailed item view with photos, description, and contact information*
+
+### Authentication
+
+#### User Registration
+![User Registration](assets/screenshots/localhost_lost-and-found_auth_register.php.png)
+*Simple and secure user registration form*
+
+#### User Login
+![User Login](assets/screenshots/localhost_lost-and-found_auth_login.php.png)
+*Clean login interface with form validation*
+
+### User Dashboard
+
+#### User Dashboard
+![User Dashboard](assets/screenshots/localhost_lost-and-found_user_dashboard.php.png)
+*Personalized dashboard showing user's items and activities*
+
+#### Post Item
+![Post Item](assets/screenshots/localhost_lost-and-found_post_item.php.png)
+*Easy-to-use form for posting lost or found items*
+
+#### My Items
+![My Items](assets/screenshots/localhost_lost-and-found_my_items.php.png)
+*Manage and view all items posted by the user*
+
+#### Notifications
+![Notifications](assets/screenshots/localhost_lost-and-found_notifications.php.png)
+*Stay updated with notifications about item activities*
+
+#### Edit Profile
+![Edit Profile](assets/screenshots/localhost_lost-and-found_user_edit_info.php.png)
+*Update personal information and profile settings*
+
+### Admin Panel
+
+#### Admin Dashboard
+![Admin Dashboard](assets/screenshots/localhost_lost-and-found_admin_dashboard.php.png)
+*Comprehensive admin dashboard with system statistics and quick actions*
+
+#### Approve Items
+![Approve Items](assets/screenshots/localhost_lost-and-found_admin_approve_items.php.png)
+*Review and approve user-submitted items before they go live*
+
+#### Manage Users
+![Manage Users](assets/screenshots/localhost_lost-and-found_admin_manage_users.php.png)
+*View and manage all registered users in the system*
+
+#### Manage Items
+![Manage Items](assets/screenshots/localhost_lost-and-found_admin_manage_items.php.png)
+*Comprehensive item management with edit and delete capabilities*
+
+#### Manage Claims
+![Manage Claims](assets/screenshots/localhost_lost-and-found_admin_manage_claims.php.png)
+*Handle item claim requests and verify ownership*
+
+#### Manage Admins
+![Manage Admins](assets/screenshots/localhost_lost-and-found_admin_manage_admins.php.png)
+*Add, remove, and manage administrative users*
+
 ## 🚀 Installation
 
 ### Prerequisites

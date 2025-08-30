@@ -5,6 +5,9 @@ includes/db.php
 uploads/*
 !uploads/.gitkeep
 
+# Screenshots folder (for documentation only)
+assets/screenshots/
+
 # System files
 .DS_Store
 Thumbs.db
