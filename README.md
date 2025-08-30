@@ -49,73 +49,73 @@ A comprehensive web-based Lost & Found application designed to help campus commu
 ### Public Pages
 
 #### Homepage
-![Homepage](assets/screenshots/localhost_lost-and-found_index.php.png)
+![Homepage](https://raw.githubusercontent.com/KabirBD/lost-and-found-system/screenshots/assets/screenshots/localhost_lost-and-found_index.php.png)
 *Clean, modern homepage with statistics and recent items display*
 
 #### Items Browser
-![Items Browser](assets/screenshots/localhost_lost-and-found_items.php.png)
+![Items Browser](https://raw.githubusercontent.com/KabirBD/lost-and-found-system/screenshots/assets/screenshots/localhost_lost-and-found_items.php.png)
 *Browse and search through all lost and found items*
 
 #### Item Details
-![Item Details](assets/screenshots/localhost_lost-and-found_item_detail.php_id=1.png)
+![Item Details](https://raw.githubusercontent.com/KabirBD/lost-and-found-system/screenshots/assets/screenshots/localhost_lost-and-found_item_detail.php_id=1.png)
 *Detailed item view with photos, description, and contact information*
 
 ### Authentication
 
 #### User Registration
-![User Registration](assets/screenshots/localhost_lost-and-found_auth_register.php.png)
+![User Registration](https://raw.githubusercontent.com/KabirBD/lost-and-found-system/screenshots/assets/screenshots/localhost_lost-and-found_auth_register.php.png)
 *Simple and secure user registration form*
 
 #### User Login
-![User Login](assets/screenshots/localhost_lost-and-found_auth_login.php.png)
+![User Login](https://raw.githubusercontent.com/KabirBD/lost-and-found-system/screenshots/assets/screenshots/localhost_lost-and-found_auth_login.php.png)
 *Clean login interface with form validation*
 
 ### User Dashboard
 
 #### User Dashboard
-![User Dashboard](assets/screenshots/localhost_lost-and-found_user_dashboard.php.png)
+![User Dashboard](https://raw.githubusercontent.com/KabirBD/lost-and-found-system/screenshots/assets/screenshots/localhost_lost-and-found_user_dashboard.php.png)
 *Personalized dashboard showing user's items and activities*
 
 #### Post Item
-![Post Item](assets/screenshots/localhost_lost-and-found_post_item.php.png)
+![Post Item](https://raw.githubusercontent.com/KabirBD/lost-and-found-system/screenshots/assets/screenshots/localhost_lost-and-found_post_item.php.png)
 *Easy-to-use form for posting lost or found items*
 
 #### My Items
-![My Items](assets/screenshots/localhost_lost-and-found_my_items.php.png)
+![My Items](https://raw.githubusercontent.com/KabirBD/lost-and-found-system/screenshots/assets/screenshots/localhost_lost-and-found_my_items.php.png)
 *Manage and view all items posted by the user*
 
 #### Notifications
-![Notifications](assets/screenshots/localhost_lost-and-found_notifications.php.png)
+![Notifications](https://raw.githubusercontent.com/KabirBD/lost-and-found-system/screenshots/assets/screenshots/localhost_lost-and-found_notifications.php.png)
 *Stay updated with notifications about item activities*
 
 #### Edit Profile
-![Edit Profile](assets/screenshots/localhost_lost-and-found_user_edit_info.php.png)
+![Edit Profile](https://raw.githubusercontent.com/KabirBD/lost-and-found-system/screenshots/assets/screenshots/localhost_lost-and-found_user_edit_info.php.png)
 *Update personal information and profile settings*
 
 ### Admin Panel
 
 #### Admin Dashboard
-![Admin Dashboard](assets/screenshots/localhost_lost-and-found_admin_dashboard.php.png)
+![Admin Dashboard](https://raw.githubusercontent.com/KabirBD/lost-and-found-system/screenshots/assets/screenshots/localhost_lost-and-found_admin_dashboard.php.png)
 *Comprehensive admin dashboard with system statistics and quick actions*
 
 #### Approve Items
-![Approve Items](assets/screenshots/localhost_lost-and-found_admin_approve_items.php.png)
+![Approve Items](https://raw.githubusercontent.com/KabirBD/lost-and-found-system/screenshots/assets/screenshots/localhost_lost-and-found_admin_approve_items.php.png)
 *Review and approve user-submitted items before they go live*
 
 #### Manage Users
-![Manage Users](assets/screenshots/localhost_lost-and-found_admin_manage_users.php.png)
+![Manage Users](https://raw.githubusercontent.com/KabirBD/lost-and-found-system/screenshots/assets/screenshots/localhost_lost-and-found_admin_manage_users.php.png)
 *View and manage all registered users in the system*
 
 #### Manage Items
-![Manage Items](assets/screenshots/localhost_lost-and-found_admin_manage_items.php.png)
+![Manage Items](https://raw.githubusercontent.com/KabirBD/lost-and-found-system/screenshots/assets/screenshots/localhost_lost-and-found_admin_manage_items.php.png)
 *Comprehensive item management with edit and delete capabilities*
 
 #### Manage Claims
-![Manage Claims](assets/screenshots/localhost_lost-and-found_admin_manage_claims.php.png)
+![Manage Claims](https://raw.githubusercontent.com/KabirBD/lost-and-found-system/screenshots/assets/screenshots/localhost_lost-and-found_admin_manage_claims.php.png)
 *Handle item claim requests and verify ownership*
 
 #### Manage Admins
-![Manage Admins](assets/screenshots/localhost_lost-and-found_admin_manage_admins.php.png)
+![Manage Admins](https://raw.githubusercontent.com/KabirBD/lost-and-found-system/screenshots/assets/screenshots/localhost_lost-and-found_admin_manage_admins.php.png)
 *Add, remove, and manage administrative users*
 
 ## 🚀 Installation
